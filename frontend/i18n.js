@@ -183,7 +183,8 @@
                 loading: '加载中...',
                 format: '[{state}] {detail}',
                 unknownDetail: '...',
-                connectionFailed: '连接失败，正在重试...'
+                connectionFailed: '连接失败，正在重试...',
+                idleDetail: '待命中（自动回到休息区）'
             },
             ui: {
                 coordsShow: '显示坐标',
@@ -377,7 +378,8 @@
                 loading: 'Loading...',
                 format: '[{state}] {detail}',
                 unknownDetail: '...',
-                connectionFailed: 'Connection failed, retrying...'
+                connectionFailed: 'Connection failed, retrying...',
+                idleDetail: 'Idle (returning to break room)'
             },
             ui: {
                 coordsShow: 'Show Coords',
@@ -571,7 +573,8 @@
                 loading: '불러오는 중...',
                 format: '[{state}] {detail}',
                 unknownDetail: '...',
-                connectionFailed: '연결 실패, 재시도 중...'
+                connectionFailed: '연결 실패, 재시도 중...',
+                idleDetail: '대기 중 (휴게실로 이동)'
             },
             ui: {
                 coordsShow: '좌표 보기',

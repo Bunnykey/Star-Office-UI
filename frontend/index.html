@@ -1769,7 +1769,7 @@
                     const changed = (pendingDesiredState === null) && (nextState !== currentState);
                     const nextLine = I18N.t('status.format', {
                         state: stateInfo.name,
-                        detail: data.detail || I18N.t('status.unknownDetail')
+                        detail: (nextState === 'idle' ? I18N.t('status.idleDetail') : data.detail) || I18N.t('status.unknownDetail')
                     });
                     if (changed) {
                         typewriterTarget = nextLine;
